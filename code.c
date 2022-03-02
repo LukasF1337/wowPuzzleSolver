@@ -143,7 +143,7 @@ int main () {
     printf("Result Combination Number: %d\nResult Positions for cross placements:\n", result_number);
     print_field((char*)positions);
     
-    printf("\nPress enter to exit");
+    printf("\nPress enter to exit\n");
     fflush(stdin);
     fflush(stdout);
     getchar();
