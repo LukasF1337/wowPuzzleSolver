@@ -1,21 +1,21 @@
-# Simple Puzzle solver mezzonic cache
-Puzzle is called mezzonic cache found in World of Warcraft 9.2 in zereth mortis.
-See Picture puzzle.webp
-This Program solves the puzzle by brute force testing each possible combination. 
+# Simple puzzle solver mezzonic cache WOW 9.2
+Puzzle is called mezzonic cache found in World of Warcraft 9.2 in zereth mortis.\
+See picture puzzle.jpg\
+This program solves the puzzle by brute force testing each possible combination.
 
-#### Compile natively in Linux or Windows:
+#### Compile natively in linux or windows:
 $ gcc -O3 code.c
 
-#### Compile in Linux for Windows:
+#### Compile in linux for windows:
 $ i686-w64-mingw32-gcc -O3 code.c
 
-#### Run in Windows:
+#### Run in windows:
 -> open a.exe
 
-#### Run in Linux:
+#### Run in linux:
 $ ./a.out
  
-## Example Run:
+## Example run:
 
 >[admin_t@archpc wow puzzle]$ ./a.out \
 Number of possibilities for cross placement is 2^(5*5) = 33554432\
