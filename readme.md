@@ -1,7 +1,9 @@
 # Simple puzzle solver mezzonic cache WOW 9.2
 Puzzle is called mezzonic cache found in World of Warcraft 9.2 in zereth mortis.\
 See picture puzzle.jpg\
-This program solves the puzzle by brute force testing each possible combination.
+The puzzle is also called the lights out puzzle.\
+This program solves the puzzle by brute force testing each possible combination\
+and picking the first one that works.
 
 #### Compile natively in linux or windows:
 $ gcc -O3 code.c
